@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img[alt="brand-logo"] {
+    width: 100px;
+}
+
+.navbar-container div:first-child {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.list-item:hover {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.grow-list {
+    position: absolute;
+    top: 55px;
+    left: 250px;
+}
+
+.nav-button {
+    background-color: #5955B3;
+    color: #fff;
+    font-weight: 400;
+    padding: 7px 15px;
+    outline: none;
+    border: 1px solid #5955B3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-group {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.banner-container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.banner-container div:first-child {
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+}
+
+.banner-container div:last-child {
+    position: absolute;
+    right: 0;
+}
+
+img[alt="illustration"] {
+    width: 700px;
+    height: 500px;
+}
+
+.heading-text {
+    color: #3C2F60;
+    font-size: 50px;
+    font-weight: 400;
+    padding-left: 100px;
+    margin-top: 40px;
+    line-height: 1.2;
+
+}
+
+span {
+    color: #5955B3;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 10px 20px;
+}
